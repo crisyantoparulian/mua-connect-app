@@ -6,7 +6,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { useAuthStore } from '@/store/authStore';
 import { authApi } from '@/api/auth';
-import { RegisterRequest } from '@/types';
+import type { RegisterRequest } from '@/types';
 import Button from '@/components/ui/Button';
 
 const registerSchema = z.object({

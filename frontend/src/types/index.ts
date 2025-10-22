@@ -69,6 +69,9 @@ export interface AuthResponse {
   expires_in: number;
 }
 
+// Export all types explicitly for verbatimModuleSyntax compatibility
+export type { User, MuaProfile, Booking, PortfolioItem, Review, AuthResponse };
+
 export interface LoginRequest {
   email: string;
   password: string;
@@ -104,3 +107,6 @@ export interface SearchMuasParams {
   page?: number;
   limit?: number;
 }
+
+// Export all request/response types
+export type { LoginRequest, RegisterRequest, CreateBookingRequest, SearchMuasParams };

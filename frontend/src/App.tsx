@@ -7,6 +7,7 @@ import Register from '@/pages/Register';
 import Search from '@/pages/Search';
 import Profile from '@/pages/Profile';
 import Dashboard from '@/pages/Dashboard';
+import MuaProfile from '@/pages/MuaProfile';
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ function App() {
               <Route path="/search" element={<Search />} />
               <Route path="/profile" element={<Profile />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/mua/:id" element={<MuaProfile />} />
             </Routes>
           </main>
         </div>

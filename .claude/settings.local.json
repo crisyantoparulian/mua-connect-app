@@ -5,7 +5,16 @@
       "Bash(cargo init:*)",
       "Bash(npm create:*)",
       "Bash(cargo build:*)",
-      "Bash(cargo run:*)"
+      "Bash(cargo run:*)",
+      "Bash(npm run dev:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(cargo check:*)",
+      "Bash(npm run build:*)",
+      "Bash(lsof:*)",
+      "Bash(kill:*)",
+      "Bash(psql:*)",
+      "Bash(npm install:*)"
     ],
     "deny": [],
     "ask": []

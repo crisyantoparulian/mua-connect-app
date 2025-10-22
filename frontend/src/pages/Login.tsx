@@ -6,7 +6,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { useAuthStore } from '@/store/authStore';
 import { authApi } from '@/api/auth';
-import { LoginRequest } from '@/types';
+import type { LoginRequest } from '@/types';
 import Button from '@/components/ui/Button';
 
 const loginSchema = z.object({
